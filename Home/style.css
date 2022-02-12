@@ -1,7 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
 * {
   margin: 0;
   padding: 0;
+  font-family:"Poppins",sans-serif;
 }
+
 #navbar {
   display: flex;
   position: relative;
@@ -12,10 +15,17 @@
   background-color: rgb(92, 92, 230);
   height: 60px;
 }
-
+#H1 {
+  color: white;
+  padding-left: 165px;
+  width:300%;
+  margin-top:8px;
+  cursor: pointer;
+}
 #navbar ul {
   display: flex;
   margin-left: 1160px;
+  position: absolute;
 }
 #navbar ul li {
   list-style: none;
@@ -29,7 +39,6 @@
   color: white;
 }
 #navbar ul li a:hover {
-  font-weight: bold;
   background-color: rgb(142, 142, 238);
 }
 
@@ -46,24 +55,35 @@
 .btn {
   background-color: #4d54ef;
   color: white;
+  font-size: 20px;
   font-weight: bold;
-  height: 40px;
-  width: 115px;
+  height: 30px;
+  width: 145px;
   position: relative;
   top: 50%;
-  padding: 3px 4px;
+  text-decoration: none;
+  text-align: center;
+  padding:10px;
   border: 0px;
 }
 .btn:hover {
   background-color: rgb(142, 142, 238);
-  color: white;
-  font-weight: bold;
-  height: 42px;
-  width: 117px;
-  position: relative;
-  top: 50%;
-  padding: 3px 4px;
-  border: 0px;
+  
+}
+.logo
+{
+  margin-top:10px;
+  margin-left: 10px;
+  height:50px;
+  width:140px;
+  background-image: url('logo.png');
+  background-size: cover;
+}
+.btn a{
+  text-decoration: none;
+  color:white;
+  text-align: center;
+  
 }
 #sec1::before {
   content: "";
@@ -173,5 +193,5 @@ footer {
 #link {
   display: inline;
   position: relative;
-  left: 73%;
+  left: 68%;
 }
