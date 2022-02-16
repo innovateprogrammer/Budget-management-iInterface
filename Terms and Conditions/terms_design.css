@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-image: url("tac.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.container
+{
+    background-size: 100%;
+    background-color: rgba(0, 0, 0, 0.884);
+}
+#navbar {
+    display: flex;
+    position: relative;
+    align-content: flex-end;
+    align-items: center;
+    top: 0px;
+    padding-bottom: 10px;
+    background-color: rgb(92, 92, 230);
+    height: 60px;
+} 
+#navbar ul {
+    display: flex;
+    margin-left: 1160px;
+    position: absolute;
+}  
+#H1 {
+    display: block;
+    color: white;
+    padding-left: 165px;
+    margin-top:8px;
+    width:300%;
+    cursor: pointer;
+}
+#navbar ul li {
+    list-style: none;
+    font-size: 1.2rem;
+}
+#navbar ul li a {
+    display: block;
+    padding: 3px 18px;
+    text-decoration: none;
+    color: white;
+}
+#navbar ul li a:hover {
+    font-weight: bold;
+    background-color: rgb(142, 142, 238);
+}
+  
+#navbar ul li a:active {
+    border-bottom: 3px solid white;
+}
+#sec_h1 {
+    text-align: center;
+    margin: 15px;
+    color: #fff;
+    text-decoration: underline;
+}
+h2 {
+    margin: 10px 6px;
+    color: #fff;
+    text-decoration: underline;
+    
+}
+.logo
+{
+  margin-top:10px;
+  margin-left:10px;
+  height:50px;
+  width:140px;
+  background-image: url('logo.png');
+  background-size: cover;
+}
+.content {
+    margin-left:-10000px;
+}
+.content.active {
+    font-size: 20px;
+    color: #fff;
+    background-color: transparent;
+    transition: 2.0s all;
+    margin-left:10px;
+}
+footer {
+    background-color: rgb(92, 92, 230);
+    color: white;
+    margin-top: 0px;
+    bottom: 0px;
+}
+#link a {
+    color: white;
+}
+#a1 {
+    display: inline;
+    color: white;
+    padding-right: 3px;
+}
+#link a:hover {
+    background-color: rgb(216, 213, 213);
+    color: blue;
+    font-style: italic;
+}
+#link {
+    display: inline;
+    position: relative;
+    left: 68%;
+}
